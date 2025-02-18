@@ -9,6 +9,7 @@ public class MataKuliah09 {
         System.out.println("Nama: " + nama);
         System.out.println("SKS: " + sks);
         System.out.println("Jumlah Jam: " + jumlahJam);
+        System.out.println(" ");
     }
 
     void ubahSKS(int sksBaru){

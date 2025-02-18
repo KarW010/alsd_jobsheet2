@@ -16,11 +16,6 @@ public class Dosen09 {
 
     void setStatusAktif(boolean status){
         statusAktif = status;
-        // if (status == true){
-        //     System.out.println("Aktif");
-        // } else {
-        //     System.out.println("Tidak Aktif");
-        // }
     }
 
     int hitungMasaKerja(int thnSkrg){
