@@ -43,4 +43,14 @@ public class Mahasiswa09 {
         mhs.tampilkanInformasi();
         mhs.updateIpk(5.0);
     }
+    
+    public Mahasiswa09() {
+    }
+
+    public Mahasiswa09(String nm, String nim, double ipk, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
 }
