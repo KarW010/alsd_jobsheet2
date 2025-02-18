@@ -4,7 +4,7 @@ public class MataKuliah09 {
     int sks;
     int jumlahJam;
 
-    void tampiliniInformasi(){
+    void tampilinInformasi(){
         System.out.println("Kode MK: " + kodeMK);
         System.out.println("Nama: " + nama);
         System.out.println("SKS: " + sks);
@@ -28,7 +28,6 @@ public class MataKuliah09 {
     }
 
     public MataKuliah09(){
-
     }
 
     public MataKuliah09(String kode, String nm, int sks, int juJam){
